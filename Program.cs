@@ -11,7 +11,7 @@ builder.Services.AddScoped<IBookRepository, BookRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<BooksContext>(options => options.UseSqlite("Data Source=Books.db"));
+builder.Services.AddDbContext<RepositoryContext>(options => options.UseSqlite("Data Source=Books.db"));
 
 var app = builder.Build();
 

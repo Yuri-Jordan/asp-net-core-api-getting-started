@@ -1,11 +1,11 @@
 
 using Microsoft.EntityFrameworkCore;
 
-public class BooksContext : DbContext
+public class RepositoryContext : DbContext
 {
     public DbSet<Book> Books { get; set; }
 
-    public BooksContext(DbContextOptions<BooksContext> options) : base(options)
+    public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options)
     {
     }
 
