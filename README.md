@@ -15,6 +15,7 @@ This is a sample ASP.NET Core API that demonstrates how to build a simple RESTfu
 2. Go to the root folder of the project project.
 3. Run the following commad to create the database
     ```
+    dotnet tool install --global dotnet-ef
     dotnet ef database update
     ```
 4. Run the API in hot reload mode
