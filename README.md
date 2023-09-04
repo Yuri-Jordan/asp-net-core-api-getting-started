@@ -24,3 +24,6 @@ This is a sample ASP.NET Core API that demonstrates how to build a simple RESTfu
     ````
 5. A new web browser page with Swagger documentation will be open.
 
+### Documentation
+- [Wiki](https://github.com/Yuri-Jordan/asp-net-core-api-getting-started/wiki/%2301---Introduction-to-ASP.NET-Core-API)
+
